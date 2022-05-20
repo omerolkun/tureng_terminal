@@ -9,7 +9,7 @@ BeautifulSoup and requests module of Python.
 
 Example:
 
-location of the repo: any/directory
+location of the repo: ~/testboard/generaleverything/turengterm/
 
 in /.bashrc file : alias turengword='_(){ python3 ~/testboard/generaleverything/turengterm/tureng.py ${*:1}; }; _'
 
