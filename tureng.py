@@ -2,7 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 import sys
 
-word = sys.argv[1]
+word = ""
+for i in range (1, len(sys.argv)):
+    word = word + sys.argv[i] + " "
+
 url = "https://tureng.com/en/turkish-english/"+word
 response = requests.get(url)
 
