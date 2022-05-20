@@ -11,7 +11,8 @@ Example:
 
 location of the repo: any/directory
 
-in /.bashrc file : alias turengword='Python3 any/directory/tureng.py'
+in /.bashrc file : alias turengword='_(){ python3 ~/testboard/generaleverything/turengterm/tureng.py ${*:1}; }; _'
+
 
 To make it permanent: source /.bashrc
 
